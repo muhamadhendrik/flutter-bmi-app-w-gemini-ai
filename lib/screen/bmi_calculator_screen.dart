@@ -19,7 +19,7 @@ class _BMICalculatorScreenState extends State<BMICalculatorScreen> {
   // Ganti dengan API key Gemini Anda
   final model = GenerativeModel(
     model: 'gemini-pro',
-    apiKey: 'AIzaSyCpr21sjPL8aE6V-DxarU3HQt0WNH1NEME',
+    apiKey: '',
   );
 
   Future<void> _calculateBMI() async {
